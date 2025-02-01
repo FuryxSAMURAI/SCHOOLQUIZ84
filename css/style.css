@@ -40,7 +40,7 @@
     border: solid #000 1px;
     border-radius: 10px;
     padding: 10px;
-    margin: 10px 0 0 0;
+    margin: 10px 0 20px 0;
 }
 .main_wrapper-block-quiz-title{
     margin: 20px 0;
@@ -49,24 +49,26 @@
     font-size: 22px;
 }
 .main_wrapper-block-quiz-question{
-    margin: 40px 0;
+    margin: 40px 0 0 0;
     font-size: 18px;
 }
 .main_wrapper-block-quiz-question > span{
     font-weight: 600;
 }
-.main_wrapper-block-quiz-title > a{
+.main_wrapper-block-quiz-question > a{
     background-color: transparent;
     text-decoration: none;
     color: #000;
     border: solid #000 1px;
-    border-radius: 10px;
-    margin: 10px;
-    padding: 10px 15px;
+    border-radius: 8px;
+    height: 50px;
+    text-align: center;
+    padding: 15px 0;
+    display: block;
     font-size: 14px;
     transition: all .3s ease;
 }
-.main_wrapper-block-quiz-title > a:hover{
+.main_wrapper-block-quiz-question > a:hover{
     background-color: #000;
     color: #fff;
 }
@@ -85,9 +87,9 @@
     text-decoration: none;
     color: #000;
     border: solid #000 1px;
-    border-radius: 10px;
+    border-radius: 8px;
     margin: 15px;
-    padding: 15px 20px;
+    padding: 20px;
     transition: all .3s ease;
 }
 .main_wrapper-block > a:hover{
@@ -98,7 +100,8 @@
     margin: 10px 10px 0 10px;
     padding: 30px 10px;
     border: solid #000 1px;
-    border-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 .footer_wrapper > div{
     margin: 5px 0;
