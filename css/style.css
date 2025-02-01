@@ -55,6 +55,21 @@
 .main_wrapper-block-quiz-question > span{
     font-weight: 600;
 }
+.main_wrapper-block-quiz-title > a{
+    background-color: transparent;
+    text-decoration: none;
+    color: #000;
+    border: solid #000 1px;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px 15px;
+    font-size: 14px;
+    transition: all .3s ease;
+}
+.main_wrapper-block-quiz-title > a:hover{
+    background-color: #000;
+    color: #fff;
+}
 .main_wrapper-block{
     display: flex;
     justify-content: space-between;
